@@ -18,4 +18,3 @@ jobs:
         uses: jpbnetley/release-tag-package.json@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
