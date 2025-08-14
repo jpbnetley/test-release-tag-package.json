@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: release
-        uses: jpbnetley/release-tag-package.json@test
+        uses: jpbnetley/release-tag-package.json@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           release_branch_name: main
