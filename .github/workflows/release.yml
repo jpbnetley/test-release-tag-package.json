@@ -18,3 +18,4 @@ jobs:
         uses: jpbnetley/release-tag-package.json@test
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          release_branch_name: main
